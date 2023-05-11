@@ -2,8 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    runtime: "edge",
+    runtime: "experimental-edge",
   },
+  swcMinify: true,
 };
 
 module.exports = nextConfig;
