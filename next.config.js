@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   experimental: {
-    runtime: "experimental-edge",
+    appDir: true,
   },
+  reactStrictMode: true,
   swcMinify: true,
 };
 
